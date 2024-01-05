@@ -72,7 +72,33 @@ form > div.campo {
     height: 40px;
     border-radius: 7px;
     margin: 5px 0;
+}
+
+div.campo > span {
     color: #fff;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    background-color: #e1f0fd;
+    font-size: 1em;
+    width: calc(100% - 50px);
+    transform: translateY(-12px);
+    height: 90%;
+    border: none;
+    border-radius: 7px;
+    padding: 4px;
+    transition: all .3s ease;
+}
+
+div.campo > input:hover {
+    background-color: #eef7ff;
+}
+
+div.campo > input:focus-within {
+    background-color: #fff;
 }
 
 div.campo label {
@@ -115,8 +141,4 @@ form > a.botao {
 form > a.botao:hover {
     background-color: var(--cor004);
     color: #fff;
-}
-
-form > a.botao > span {
-    font-size: .8em;
 }
