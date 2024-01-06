@@ -45,7 +45,7 @@ section#login {
 
 section#login > div#imagem {
     display: block;
-    background: var(--cor002) url(../images/tokyo_night.jpg) no-repeat;
+    background: var(--cor002) url(../images/shibuya.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     height: 200px;
